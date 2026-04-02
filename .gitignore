@@ -1,0 +1,11 @@
+# Dependencies
+.node_modules
+# Production builds/distributions
+/dist
+/dist-ssr
+
+# Node:
+*/node_modules
+*.npm
+*npm-debug*
+*/xml
