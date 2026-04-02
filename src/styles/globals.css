@@ -1,0 +1,8 @@
+@import tailwind components;
+import tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+}
