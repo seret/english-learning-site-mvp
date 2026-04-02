@@ -12,3 +12,5 @@ export * from './badge';
 export * from './textarea';
 export * from './select';
 export * from './alert';
+// SEO components
+export * from './seo-components';
