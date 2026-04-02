@@ -1,0 +1,17 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@s3
+      - uses: actions/setup-node@s3
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: npm run build
