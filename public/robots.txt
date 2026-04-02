@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Crawl-delay: 10
+# Sitemap location
+Sitemap: https://englishlearn.site/sitemap.xml
+
+# Development and staging environments
+User-agent: *
+Disallow: /staging/
+Disallow: /test/
+Disallow: /dev/
+
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Analytics and monitoring bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
